@@ -1,0 +1,27 @@
+
+'this prints the string that follows to prompt the user to answer a question
+TextWindow.Write("What is your name?: ")
+'this is the variable name intended to capturen the name of the user
+name = TextWindow.Read()
+'here we concatenate the name between two strings to give the user the impression'
+'we are communicating with them'
+'next we ask the time'
+TextWindow.Write("Hi there, " + name + "! What time do you think it is?")
+'another variable collected with the read() method'
+
+Time = TextWindow.Read()
+
+'here we call the variable name between two strings'
+TextWindow.Write("Well " + name + ", per your computer, the time is actually: ")
+
+'establish the subroutine PrintTime which uses the clock method to pull the actual time from the console'
+Sub PrintTime
+  TextWindow.WriteLine(Clock.Time)
+  
+EndSub
+
+'here we call the subroutine'
+PrintTime()
+
+
+  
