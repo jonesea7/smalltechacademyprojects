@@ -6,7 +6,7 @@
     padding: 50px;
     margin-right: 15px;
     text-align: center;
-    font-size: 2em;
+    font-size: 3em;
     color: #000000;
     text-shadow: 2px 2px 25px #ffd800;
     font-weight: 100;
@@ -14,7 +14,7 @@
 
 .image {
     padding: 25px;
-    text-align: left
+    text-align: center
 }
 
 .nav {
@@ -26,12 +26,34 @@
 .mission-title {
     padding: 2em;
     text-align:center;
-    color: aqua
+    font-size: 5em;
+    color: #000000
 
 }
 
 .missionparagraph {
     margin: 12px;
-    text-align:left
+    text-align:left;
+    font-size: 3em
+
+}
+
+.subtitle {
+
+    text-align: center;
+    font-size: 2em;
+    margin: auto
+   
+}
+
+.input {
+    text-align:center
+
+}
+
+.form {
+    text-align: start;
+    font-size: 1em;
+    margin: auto
 
 }
