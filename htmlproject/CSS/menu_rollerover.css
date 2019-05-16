@@ -1,0 +1,95 @@
+body{
+    background-color: thistle
+}
+
+.wrap {
+width: 100%;
+height: auto;
+top: 0;
+left: 0;
+}
+
+.menu-container {
+    background-color: thistle;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: relative;
+
+}
+
+.menu {
+    font: 1em bold Arial;
+    text-align: center;
+    
+    display: inline;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.menu li {
+    color: aliceblue;
+    display: inline-block;
+    border: 1.5px solid gray;
+    position: relative;
+    margin-right: -2px;
+    padding: 12px 40px;
+    border-radius: 1.5 px;
+    background-color: bisque;
+    color: seagreen;
+    cursor: pointer;
+}
+
+.menu li:hover {
+    background-color: burlywood;
+    color: white
+}
+
+.menu li:hover ul {
+    display: block;
+    opacity: 1;
+    visibility: visible;
+
+
+}
+.submenu {
+    list-style: none;
+    padding: 0;
+    position: absolute;
+    opacity: 0;
+    visibility: hidden;
+    width: 125.5px;
+    left: 0;
+    top: 43.5px;
+    
+
+}
+
+.submenu li {
+    background-color: aquamarine;
+    display: block;
+    color: rebeccapurple;
+}
+
+.submenu li:hover {
+    color: white;
+    background-color: blue
+}
+
+section {
+    border: 5px solid grey;
+    background-color: black;
+    top: 200px;
+    left: 250px;
+    position: relative;
+
+}
+
+section h1{
+    font: 1em bold wheat;
+    text-align: center
+
+
+}
