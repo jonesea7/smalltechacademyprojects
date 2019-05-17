@@ -62,7 +62,7 @@
     height: 169px;
 }
 
-.photo-overlay {
+.overlay {
     color: white;
     position: absolute;
     top: 0;
@@ -85,14 +85,14 @@
 /*------------------------------- PHOTO OVERLAY TRANSISTIONS ----------------------
 --------------------------------------------------------------------*/
 
-.photo-overlay {
+.overlay {
     opacity: 0 ;
     transition: opacity .5s;
     border-radius: 10px;
     cursor: pointer;
 }
 
-.photo-overlay:hover {
+.overlay:hover {
     opacity: 1;
 
 }
