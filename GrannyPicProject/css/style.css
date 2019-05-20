@@ -34,7 +34,8 @@
 .missionparagraph {
     margin: 12px;
     text-align:left;
-    font-size: 3em
+    font-size: 3em;
+    font-family: 'Courier New', Courier, monospace;
 
 }
 
@@ -54,6 +55,9 @@
 .form {
     text-align: start;
     font-size: 1em;
-    margin: auto
+    margin: auto;
+    width: 500px;
+    border: 2px double red;
+    border-radius: 12px;
 
 }
