@@ -1,0 +1,39 @@
+html {
+    background: rgb(30, 30, 30);
+
+}
+
+body {
+    width: 100%;
+    height: 532px;
+    line-height: 1.5em;
+    
+}
+
+section {
+    background: whitesmoke;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0% auto;
+    width: 65%;
+    height: 65%;
+    border-radius: 23px;
+
+}
+
+form {
+    color: silver;
+    width: 50%;
+    height: 50%;
+    background-color: tan;
+    margin: 0% auto;
+    border-radius: 33px;
+    padding: 10px;
+}
+
+input .userName, .passWord {
+
+    margin: 0% auto;
+    
+
+}
