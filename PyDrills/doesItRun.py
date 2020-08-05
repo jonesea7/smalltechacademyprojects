@@ -1,12 +1,14 @@
 import os
 
+#let's cook up a directory and some files for this wonderful exercise.
 
-pathName = 'C:\\Documents and Settings\\'
-userDirList = os.listdir(pathName)
+newFileList = ['eddy.txt', 'jones.txt', 'samson.py', 'miracle.html', 'gary.txt', 'fallout3.html', 'pizza.txt', 'erick.py', 'malcolm.html', 'lather.py']
 
-def getDir():
-    for file in userDirList:
-        print(file)
+pathName = 'C:\\Users\\'
 
-if __name__ == '__main__':
-    getDir()
+def createDir():
+    for filename in newFileList:
+        newDir = os.path.join(pathName,filename)
+        print(newDir)
+
+createDir()
